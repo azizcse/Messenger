@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+    "-//Puppy Crawl//DTD Suppressions 1.2//EN"
+    "http://checkstyle.sourceforge.net/dtds/suppressions_1_2.dtd">
+    
+<suppressions>
+    <suppress checks="AbbreviationAsWordInNameCheck" files=".*"/>
+
+    <suppress id="JavaNaming" files="app/src/main/java/io/left/meshim/activities/"/>
+    <suppress id="JavaNaming" files="app/src/main/java/io/left/meshim/services/"/>
+    <suppress id="JavaNaming" files="app/src/main/java/io/left/meshim/adapters/"/>
+
+    <suppress id="AndroidNaming1of3" files="app/src/main/java/io/left/meshim/models/"/>
+    <suppress id="AndroidNaming2of3" files="app/src/main/java/io/left/meshim/models/"/>
+    <suppress id="AndroidNaming3of3" files="app/src/main/java/io/left/meshim/models/"/>
+    <suppress id="AndroidNaming1of3" files="app/src/main/java/io/left/meshim/database/"/>
+    <suppress id="AndroidNaming2of3" files="app/src/main/java/io/left/meshim/database/"/>
+    <suppress id="AndroidNaming3of3" files="app/src/main/java/io/left/meshim/database/"/>
+    <suppress id="AndroidNaming1of3" files="app/src/main/java/io/left/meshim/controllers/"/>
+    <suppress id="AndroidNaming2of3" files="app/src/main/java/io/left/meshim/controllers/"/>
+    <suppress id="AndroidNaming3of3" files="app/src/main/java/io/left/meshim/controllers/"/>
+</suppressions>
